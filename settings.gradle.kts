@@ -1,0 +1,11 @@
+rootProject.name = "emergency-notification-system"
+include("template-service")
+include("recipient-service")
+include("security")
+include("security-service")
+include("notification-service")
+include("sender")
+include("rebalancer")
+include("api-gateway")
+include("discovery-server")
+include("images")

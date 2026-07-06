@@ -1,0 +1,17 @@
+server:
+  port: 9019
+
+spring:
+  application:
+    name: rebalancer
+  kafka:
+    bootstrap-servers: localhost:9092
+    topics:
+      notifications:
+        email: email-notification
+        phone: phone-notification
+        telegram: telegram-notification
+
+
+services:
+  notification: notification-service

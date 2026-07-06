@@ -1,0 +1,24 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: sender
+  kafka:
+    bootstrap-servers: localhost:9092
+    topics:
+      notifications:
+        email: email-notification
+        phone: phone-notification
+        telegram: telegram-notification
+
+
+notification:
+  maxRetryAttempts: 3
+  services:
+    telegram:
+      token: 6080621435:AAG8hChAJ9vKPDEhiZ9_OlhZaqswZi5jk0o
+
+
+services:
+  notification: notification-service
