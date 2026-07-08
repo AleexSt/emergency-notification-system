@@ -9,6 +9,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.time.LocalDateTime;
 
+import static example.com.notification.model.NotificationStatus.NEW;
+
 @Data
 @Builder
 @NoArgsConstructor
@@ -27,7 +29,7 @@ public class Notification {
     private NotificationType type;
 
     @Builder.Default
-    private NotificationStatus status = NotificationStatus.NEW;
+    private NotificationStatus status = NEW;
 
     @Builder.Default
     private Integer retryAttempts = 0;

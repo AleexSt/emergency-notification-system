@@ -1,9 +1,9 @@
 package example.com.rebalancer.dto.kafka;
 
 
-import example.com.notification.dto.response.TemplateHistoryResponse;
-import example.com.notification.model.NotificationStatus;
-import example.com.notification.model.NotificationType;
+import example.com.rebalancer.dto.response.TemplateHistoryResponse;
+import example.com.rebalancer.model.NotificationStatus;
+import example.com.rebalancer.model.NotificationType;
 
 public record NotificationKafka(
         Long id,

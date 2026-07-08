@@ -84,10 +84,10 @@ springdoc:
         url: /template-service/api-docs
       - name: recipient-service
         url: /recipient-service/api-docs
-      - name: file-service
-        url: /file-service/api-docs
-      - name: url-shortener
-        url: /url-shortener/api-docs
+#      - name: file-service
+#        url: /file-service/api-docs
+#      - name: url-shortener
+#        url: /url-shortener/api-docs
 
 eureka:
   client:

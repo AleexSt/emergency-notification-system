@@ -22,19 +22,14 @@ ext {
 }
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation("org.springframework.boot:spring-boot-devtools")
-    implementation("org.springframework.kafka:spring-kafka")
-    implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
-    implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
+    implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.projectlombok:lombok")
 
     annotationProcessor("org.projectlombok:lombok")
 
+    implementation("org.telegram:telegrambots:6.5.0")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
-    testImplementation("org.springframework.kafka:spring-kafka-test")
-    testImplementation("org.junit.platform:junit-platform-launcher")
-    testImplementation("org.assertj:assertj-core:3.24.2")
 }
 
 // ✅ Добавляем dependencyManagement для Spring Cloud

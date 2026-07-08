@@ -1,0 +1,6 @@
+server:
+  port: 0
+
+bot:
+  name: EmergencyNotificationSystemBot
+  token: 8368549899:AAEqnDAEVKOJRnf7jOiIChPN4iW5doZcZ0Q

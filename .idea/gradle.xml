@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/security" />
             <option value="$PROJECT_DIR$/security-service" />
             <option value="$PROJECT_DIR$/sender" />
+            <option value="$PROJECT_DIR$/telegram-bot-server" />
             <option value="$PROJECT_DIR$/template-service" />
           </set>
         </option>

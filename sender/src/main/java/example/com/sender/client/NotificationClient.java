@@ -3,7 +3,6 @@ package example.com.sender.client;
 
 import example.com.sender.dto.kafka.NotificationKafka;
 import example.com.sender.dto.response.NotificationResponse;
-import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

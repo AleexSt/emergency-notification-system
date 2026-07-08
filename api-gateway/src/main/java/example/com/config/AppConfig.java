@@ -27,7 +27,7 @@ public class AppConfig {
         return new HttpMessageConverters(new GsonHttpMessageConverter());
     }
 
-
+    @Bean
     public CorsWebFilter corsWebFilter(){
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.applyPermitDefaultValues();
@@ -42,7 +42,8 @@ public class AppConfig {
 
     }
 
-    public RestTemplate restTemplate(){
+    @Bean
+    public  RestTemplate restTemplate(){
         return new RestTemplate();
     }
 

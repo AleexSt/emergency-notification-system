@@ -17,7 +17,7 @@ notification:
   maxRetryAttempts: 3
   services:
     telegram:
-      token: 6080621435:AAG8hChAJ9vKPDEhiZ9_OlhZaqswZi5jk0o
+      token: 8368549899:AAEqnDAEVKOJRnf7jOiIChPN4iW5doZcZ0Q
 
 
 services:

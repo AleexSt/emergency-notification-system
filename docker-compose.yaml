@@ -64,7 +64,7 @@ services:
     image: postgres:alpine3.17
     restart: always
     ports:
-      - '5432:5432'
+      - '5437:5432'
     environment:
       POSTGRES_DB: notification
       POSTGRES_USER: postgres
